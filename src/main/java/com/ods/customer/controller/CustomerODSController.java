@@ -43,8 +43,7 @@ public class CustomerODSController {
 	@RequestMapping(method=RequestMethod.GET, value="/categories")
 	public List<Category> getCategories(){
 		CustomerODSService service = new CustomerODSService();
-		CustomerODSService service = new CustomerODSService();
-		
+
 		return service.test();
 	}
 }
